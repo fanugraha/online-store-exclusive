@@ -1,0 +1,32 @@
+.LeftContent {
+  display: flex;
+  justify-content: start;
+  width: 220px;
+}
+
+.LeftContent ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
+}
+
+.LeftContent ul li {
+  list-style: none;
+}
+
+.LeftContent ul li a {
+  text-decoration: none;
+  color: var(--text-2, #000000);
+  font: 400 16px/24px "Poppins", sans-serif;
+}
+
+.containerhero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}

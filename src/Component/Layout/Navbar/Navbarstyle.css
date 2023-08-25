@@ -1,0 +1,64 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.Logo {
+  color: var(--text-2, #000000);
+  text-align: left;
+  font: var(--heading-24-px-bold, 700 24px/24px "Inter", sans-serif);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #363636;
+  font: var(--title-16-px-regular, 500 16px/24px "Poppins", sans-serif);
+}
+
+.Input {
+  background: var(--secondary, #f5f5f5);
+  border-radius: 4px;
+  padding: 2px 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 40px;
+}
+
+nav input {
+  background-color: transparent;
+  border: none;
+  color: var(--text-2, #000000);
+  text-align: left;
+}
+
+.InputIcon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.LeftContent {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}

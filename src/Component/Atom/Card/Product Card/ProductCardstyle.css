@@ -1,0 +1,75 @@
+.CardProduct {
+  width: 300px;
+  height: 350px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+}
+
+.ProductImage {
+  aspect-ratio: 3/3;
+  object-fit: cover;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.CardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.TitleCard {
+  font: 500 16px "Poppins", sans-serif;
+  color: #363636;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* Jumlah baris yang ingin ditampilkan */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 54px;
+}
+
+.Rating {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: start;
+}
+.RatingStar {
+  width: 16px;
+  height: 16px;
+}
+
+.Rating p {
+  margin: 0;
+  padding: 0;
+  font: 500 16px/24px "Poppins", sans-serif;
+  color: #363636;
+}
+
+.Price {
+  color: #f86535;
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+}
+
+.button {
+  background: #f86535;
+  width: 113px;
+  height: 33px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font: 500 14px "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraperPiceButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
