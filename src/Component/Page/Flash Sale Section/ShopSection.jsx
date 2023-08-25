@@ -32,7 +32,7 @@ const ShopSection = () => {
   return (
     <div className="container ShopingSection">
       <div className="Label">
-        <div className="Title">Flash Sale</div>
+        <div className="TitleFlashSale">Flash Sale</div>
         <CountdownTimer />
       </div>
       <div className="WrapperProduct">

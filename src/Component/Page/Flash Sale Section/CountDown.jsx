@@ -46,10 +46,10 @@ const CountdownTimer = () => {
 
   return (
     <div className="CountDown">
-      <div>{timeLeft.days} Hari</div>
-      <div>{timeLeft.hours} Jam</div>
-      <div>{timeLeft.minutes} Menit</div>
-      <div>{timeLeft.seconds} Detik</div>
+      <div className="Timer">{timeLeft.days} Hari</div>
+      <div className="Timer">{timeLeft.hours} Jam</div>
+      <div className="Timer">{timeLeft.minutes} Menit</div>
+      <div className="Timer">{timeLeft.seconds} Detik</div>
     </div>
   );
 };

@@ -1,0 +1,16 @@
+.CountDown {
+  display: flex;
+  gap: 30px;
+  color: var(--text-2, red);
+  text-align: left;
+  font: var(--heading-32-px-bold, 600 24px/30px "Inter", sans-serif);
+}
+
+.Timer {
+  color: white;
+  text-align: left;
+  font: var(--heading-32-px-bold, 600 20px/30px "Inter", sans-serif);
+  background-color: red;
+  padding: 10px 10px;
+  border-radius: 6px;
+}

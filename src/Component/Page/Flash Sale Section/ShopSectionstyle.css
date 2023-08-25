@@ -20,12 +20,12 @@
   justify-content: start;
 }
 
-.Title {
+.TitleFlashSale {
   color: var(--text-2, #363636);
   text-align: left;
-  font: var(--heading-36-px-semi-bold, 600 24px/48px "Inter", sans-serif);
+  font: var(--heading-36-px-semi-bold, 600 34px/48px "Lato", sans-serif);
   position: relative;
 }
 .ShopingSection {
-  margin-top: 50px;
+  margin-top: 60px;
 }
