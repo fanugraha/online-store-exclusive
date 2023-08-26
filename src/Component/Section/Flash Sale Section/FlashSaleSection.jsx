@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import CardProduct from "../../Atom/Card/Product Card/ProductCard";
-import "./ShopSectionstyle.css";
+import "./FlashSaleSectionstyle.css";
 import CountdownTimer from "./CountDown";
+import { Pagination } from "@nextui-org/react";
 
-const ShopSection = () => {
+const FlashSaleSectiion = () => {
   // State untuk menyimpan data product
   const [getProduct, setProduct] = useState([]);
 
@@ -27,7 +28,7 @@ const ShopSection = () => {
   }, []);
 
   // Mengambil 4 elemen pertama dari array getProduct
-  const limitedProducts = getProduct.slice(0, 4);
+  const limitedProducts = getProduct.slice(0, 8);
 
   return (
     <div className="container ShopingSection">
@@ -48,4 +49,4 @@ const ShopSection = () => {
   );
 };
 
-export default ShopSection;
+export default FlashSaleSectiion;

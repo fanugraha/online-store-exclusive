@@ -3,8 +3,12 @@ import "./ProductCardstyle.css";
 const CardProduct = (props) => {
   return (
     <button className="CardProduct">
-      <img className="ProductImage" src={props.item?.image} alt="" />
-      <h1 className="TitleCard">{props.item?.title}</h1>
+      <div className="ProductImage">
+        <img src={props.item?.image} alt="" />
+      </div>
+      <div className="TitleWrap">
+        <h1 className="TitleCard">{props.item?.title}</h1>
+      </div>
       <div className="CardBody">
         <div className="Rating">
           <img

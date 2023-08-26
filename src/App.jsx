@@ -1,16 +1,12 @@
-import Navbar from "./Component/Layout/Navbar/Navbar";
-import HeroSection from "./Component/Page/Hero Page/HeroSetion";
-import ShopSection from "./Component/Page/Flash Sale Section/ShopSection";
-import Category from "./Component/Page/Category Section/Category";
+import * as React from "react";
+import { NextUIProvider } from "@nextui-org/react";
+import Homepage from "./Component/Page/Homepage/Homepage";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <HeroSection />
-      <ShopSection />
-      <Category />
-    </div>
+    <NextUIProvider>
+      <Homepage />
+    </NextUIProvider>
   );
 }
 

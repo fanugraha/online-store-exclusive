@@ -1,16 +1,16 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import elektronik from "../../../assets/Icon/category-elektronik.png";
-import jawerely from "../../../assets/Icon/category-jawerely.png";
-import men from "../../../assets/Icon/category-men.png";
-import woman from "../../../assets/Icon/category-woman.png";
+import pakaianpria from "../../../assets/Icon/category-pakaianpria.png";
+import pakaianwanita from "../../../assets/Icon/category-pakaianwanita.png";
+import pakaiananak from "../../../assets/Icon/category-pakaiananak.png";
+import aksesoris from "../../../assets/Icon/category-aksesoris.png";
 import "./Categorystyle.css";
 
 const Icon = [
-  { img: elektronik },
-  { img: jawerely },
-  { img: men },
-  { img: woman },
+  { img: pakaianpria },
+  { img: pakaianwanita },
+  { img: pakaiananak },
+  { img: aksesoris },
 ];
 
 const Category = () => {

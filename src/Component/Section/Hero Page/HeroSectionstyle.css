@@ -1,0 +1,67 @@
+.kelebihan {
+  display: flex;
+  gap: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 20px;
+  gap: 26px;
+  width: 477px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.kelebihan li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeroContent {
+  background-image: url("/src/assets/Image/background-hero.png");
+  background-size: cover;
+}
+
+.titelHero {
+  color: #000000;
+  text-align: left;
+  font: 300 70px "Lato", sans-serif;
+  width: 762px;
+  margin-top: 50px;
+}
+
+.titleHeroBold {
+  color: #3734a9;
+  text-align: left;
+  font: 800 70px "Open Sans", sans-serif;
+}
+
+.paragrafHero {
+  color: #5b5b5b;
+  text-align: left;
+  font: 400 24px "Open Sans", sans-serif;
+  width: 625px;
+  margin-top: 26px;
+}
+.paragrafHero span {
+  font: 600 24px "Open Sans", sans-serif;
+}
+
+.heroBtn {
+  background: var(--pallet-4-primary, #3734a9);
+  border-radius: 10px;
+  padding: 19px 67px 19px 67px;
+  color: #ffffff;
+  text-align: center;
+  font: 700 18px/30px "Open Sans", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.contentContentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
