@@ -1,13 +1,16 @@
-import HeroSection from "../../Section/Hero Page/HeroSetion";
-import Category from "../../Section/Category Section/Category";
+import HeroSection from "../../Section/Hero Page Section/HeroSetion";
 import FlashSaleSectiion from "../../Section/Flash Sale Section/FlashSaleSection";
-
+import BannerSection from "../../Section/Banner Promo Section/BannerSection";
+import ProductsSection from "../../Section/Product Section/Prodcut";
+import Category from "../../Section/Category Section/Category";
 const Homepage = () => {
   return (
     <div>
       <HeroSection />
-      <Category />
+      <BannerSection />
       <FlashSaleSectiion />
+      <Category />
+      <ProductsSection />
     </div>
   );
 };

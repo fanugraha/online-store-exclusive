@@ -1,10 +1,9 @@
+import ProductCard from "../../Atom/Card/Prodcut Card/ProductCard";
+import "./Productstyle.css";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import FlashsaleCard from "../../Atom/Card/Flash Sale Card/FlashsaleCard";
-import "./FlashSaleSectionstyle.css";
-import CountdownTimer from "./CountDown";
 
-const FlashSaleSectiion = () => {
+const ProductsSection = () => {
   // State untuk menyimpan data product
   const [getProduct, setProduct] = useState([]);
 
@@ -26,21 +25,17 @@ const FlashSaleSectiion = () => {
   }, []);
 
   // Mengambil 4 elemen pertama dari array getProduct
-  const limitedProducts = getProduct.slice(0, 8);
+  const products = getProduct.slice(8, 20);
 
   return (
-    <div className="container ShopingSection">
+    <div className="container product">
       <div className="Label">
-        <div className="TitleFlashSale">Flash Sale</div>
-        <div className="TextTimer">Berakhir dalam</div>
-        <CountdownTimer />
+        <div className="TitleFlashSale">Produk Kami</div>
       </div>
       <div className="WrapperProduct">
         <div className="ProductList">
-          {/* Looping Product */}
-          {limitedProducts.map((item) => (
-            // Menangmpil componet Card, diberikan properti item dengan nilai item untuk di lempat ke child
-            <FlashsaleCard key={item.id} item={item} />
+          {products.map((item) => (
+            <ProductCard key={item.id} item={item} />
           ))}
         </div>
       </div>
@@ -48,4 +43,4 @@ const FlashSaleSectiion = () => {
   );
 };
 
-export default FlashSaleSectiion;
+export default ProductsSection;

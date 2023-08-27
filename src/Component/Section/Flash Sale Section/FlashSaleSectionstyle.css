@@ -15,8 +15,8 @@
 
 .Label {
   display: flex;
-  gap: 50px;
-  align-items: center;
+  gap: 30px;
+  align-items: end;
   justify-content: start;
 }
 
@@ -28,4 +28,8 @@
 }
 .ShopingSection {
   margin-top: 60px;
+}
+
+.TextTimer {
+  font: var(--heading-36-px-semi-bold, 400 20px "Lato", sans-serif);
 }

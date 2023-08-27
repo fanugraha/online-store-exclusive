@@ -8,9 +8,7 @@
 
 .Category {
   border-radius: 4px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0.3);
-  border-width: 2px;
+  border: 1px solid rgba(55, 52, 169, 0.2);
   width: 300px;
   height: 145px;
   display: flex;
@@ -18,7 +16,6 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  border-style: solid;
   background-color: transparent;
   margin-top: 30px;
 }
@@ -37,5 +34,5 @@
 .Category img {
   aspect-ratio: 3/3;
   object-fit: cover;
-  width: 7cqmin;
+  width: 80px;
 }

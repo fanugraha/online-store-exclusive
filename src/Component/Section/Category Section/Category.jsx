@@ -22,10 +22,9 @@ const Category = () => {
       .get("https://fakestoreapi.com/products/categories")
       .then((response) => {
         setCategory(response?.data);
-        console.log("Berhasil", response);
       })
       .catch((error) => {
-        console.log("Gagal", error);
+        // console.log("Gagal", error);
       });
   };
 

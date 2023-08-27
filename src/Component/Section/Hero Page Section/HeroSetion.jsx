@@ -1,12 +1,13 @@
 import "./HeroSectionstyle.css";
-import NavigationBar from "../../Layout/Navbar/NavigationBar";
+import Navbar from "../../Layout/Navbar/Navbar";
+import { Button } from "@nextui-org/react";
 
 const bestList = ["Free Register", "Great Service", "Easy Payment"];
 
 const HeroSection = () => {
   return (
     <div className="HeroContent">
-      <NavigationBar />
+      <Navbar />
       <div className="container contentContentWrapper">
         <div className="LeftContent">
           <ul className="kelebihan">
@@ -27,7 +28,7 @@ const HeroSection = () => {
               fashion accessible to all. It brings fashion to your doorstep!
             </p>
           </div>
-          <button className="heroBtn">Shop collections</button>
+          <Button className="heroBtn">Shop collections</Button>
         </div>
         <div className="RightContent">
           <img src="src\assets\Image\Hero-picture.png" alt="" />

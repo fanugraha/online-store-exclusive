@@ -52,6 +52,22 @@
   position: relative;
   color: #ffffff;
   text-align: center;
-  font: 600 18px "Jost", sans-serif;
+  font: 800 18px "Jost", sans-serif;
   position: relative;
+}
+
+.SearchBar {
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+}
+
+.SearchBar input {
+  background-color: transparent;
+  border: none;
+  width: 120px;
+  height: 30px;
 }

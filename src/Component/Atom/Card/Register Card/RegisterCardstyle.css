@@ -1,0 +1,65 @@
+.Card {
+  width: 500px;
+  height: 600px;
+  gap: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  backdrop-filter: blur(12px);
+}
+
+.Title {
+  color: #363636;
+  text-align: left;
+  font: 400 36px "Rubik", sans-serif;
+}
+
+.Paragraph {
+  color: #454545;
+  text-align: left;
+  font: 300 16px "Rubik", sans-serif;
+}
+
+.WrapperInput {
+  width: 365px;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-login {
+  background-color: #3734a9 !important;
+  width: 365px !important;
+  font: 600 16px "Rubik", sans-serif;
+}
+
+.Text-Form {
+  color: #454545;
+  text-align: left;
+  font: 300 16px "Rubik", sans-serif;
+}
+
+.Text-Form span {
+  color: #454545;
+  text-align: left;
+  font: 600 16px "Rubik", sans-serif;
+}
+
+.SocialMedia {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Wrapper-Sosmed {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

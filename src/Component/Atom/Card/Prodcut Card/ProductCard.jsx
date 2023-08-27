@@ -1,8 +1,8 @@
 import "./ProductCardstyle.css";
 
-const CardProduct = (props) => {
+const ProductCard = (props) => {
   return (
-    <button className="CardProduct">
+    <div className="ProductCard">
       <div className="ProductImage">
         <img src={props.item?.image} alt="" />
       </div>
@@ -20,11 +20,13 @@ const CardProduct = (props) => {
         </div>
         <div className="wraperPiceButton">
           <div className="Price">{props.item?.price}$</div>
-          <div className="button">Add To Cart</div>
+          <button className="ButtonProduct">
+            <img src="src\assets\Image\cart.svg" alt="" />
+          </button>
         </div>
       </div>
-    </button>
+    </div>
   );
 };
 
-export default CardProduct;
+export default ProductCard;
